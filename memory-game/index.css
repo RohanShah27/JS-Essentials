@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+  padding: 10px;
+  background-color: blanchedalmond;
+  border: 1px solid #c4c4c4;
+  height: 50px;
+  cursor: pointer;
+}
+.selected {
+  background-color: green;
+}
+.error {
+  background-color: red;
+}

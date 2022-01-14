@@ -1,0 +1,32 @@
+.folder {
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+}
+.content {
+  font-size: 15px;
+  width: 100%;
+  margin: 10px 25px;
+  cursor: none;
+}
+.icon {
+  display: inline-block;
+  transform: rotate(0deg);
+}
+
+@keyframes open {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+@keyframes close {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

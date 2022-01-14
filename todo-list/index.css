@@ -1,0 +1,78 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  height: 97vh;
+}
+.main-container {
+  position: relative;
+  height: 100%;
+}
+[id="create-button"] {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 5px;
+  background: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+.todos {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  background: #f7f5f5;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px 5px;
+  box-shadow: 3px 1px ivory;
+  position: relative;
+}
+
+h2 {
+  margin: 1px;
+  font-size: 20px;
+}
+.delete-item {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 20px;
+  cursor: pointer;
+  color: red;
+}
+.overlay {
+  backdrop-filter: blur(3px);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+[id="mytext"] {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* margin: 50%; */
+}
+
+[id="add-btn"] {
+  z-index: 2;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  /* margin: 50%; */
+}

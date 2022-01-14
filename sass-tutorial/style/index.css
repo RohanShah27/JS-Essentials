@@ -1,0 +1,24 @@
+body {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 18px;
+}
+
+.main-container div {
+  background-color: pink;
+  width: 300px;
+}
+.main-container p {
+  border: 1px solid blue;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 50px;
+}
+.main-container ul {
+  border: 1px solid blue;
+  font-size: 22px;
+  font-weight: bold;
+  list-style-type: square;
+}
+
+/*# sourceMappingURL=index.css.map */

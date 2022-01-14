@@ -1,0 +1,26 @@
+@import "colors";
+@mixin common-text {
+  border: 1px solid blue;
+  font-size: 22px;
+  font-weight: bold;
+}
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: map-get($map: $font-sizes, $key: "normal");
+}
+
+.main-container {
+  div {
+    background-color: $divColor;
+    width: $width;
+  }
+  p {
+    @include common-text();
+    margin: 50px;
+  }
+  ul {
+    @include common-text();
+    list-style-type: square;
+  }
+}

@@ -1,0 +1,10 @@
+.grid-main {
+  display: grid;
+  /* margin: auto; */
+}
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  cursor: pointer;
+}
